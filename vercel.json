@@ -1,14 +1,14 @@
 {
     "builds": [
       {
-        "src": "yamen/asgi.py",
+        "src": "yamen/wsgi.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "yamen/asgi.py"
+        "dest": "yamen/wsgi.py"
       }
     ]
   }
