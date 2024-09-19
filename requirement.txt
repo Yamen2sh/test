@@ -1,0 +1,8 @@
+Django==4.0.10
+django-cors-headers==4.4.0
+djangorestframework==3.15.1
+djangorestframework-simplejwt==5.3.1
+numpy==1.26.3
+opencv-python==4.9.0.80
+pandas==2.1.4
+six==1.16.0
